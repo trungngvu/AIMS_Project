@@ -1,0 +1,23 @@
+package net.codejava;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class ContactProgram {
+	public static void main(String[] args) {
+		String jdbcURL = "jdbc:postgresql://local:5432/shopme";
+		String username = "postgres";
+		String password = "thaicanh00";
+		
+		try {
+			Connection connection = DriverManager.getConnection(jdbcURL, username, password);
+			System.out.println("Connected to PostgresSQL server");
+			
+			connection.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

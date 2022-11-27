@@ -1,0 +1,13 @@
+package java1;
+
+import java.util.Scanner;
+
+public class p6_caculator {
+	public static void main(String[] args) {
+		int firstNumber;
+		int secondNumber;
+		String caculate;
+		
+		Scanner sc = new 
+	}
+}

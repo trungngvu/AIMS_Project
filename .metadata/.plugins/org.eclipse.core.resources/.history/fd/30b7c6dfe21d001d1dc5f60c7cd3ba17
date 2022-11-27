@@ -1,0 +1,15 @@
+package java1;
+
+public class b2 {
+	public static void main(String[] args) {
+		/*
+		 */
+		int age, year;
+		char name, city;
+		
+		age = 21;
+		year = 2015;
+		System.out.println("age: " + age);
+		System.out.println(year);
+	}
+}

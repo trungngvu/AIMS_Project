@@ -1,0 +1,54 @@
+package java1;
+
+public class p3_operator {
+	
+	//002 Toan tu gan 
+	public static void main(String[] args) {
+		int number = 20;
+		
+		System.out.println("Start = " + number);
+		
+		// number = number + 10
+		number += 10;
+		System.out.println("After = " + number);
+		// number = number - 10
+		number -= 10;
+		System.out.println("After = " + number);
+		// number = number * 10
+		number *= 10;
+		System.out.println("After = " + number);
+		// number = number / 10
+		number /= 10;
+		System.out.println("After = " + number);
+		// number = number % 10
+		number %= 10;
+		System.out.println("After = " + number);
+	}
+	
+	//001 Toan tu so hoc + - * / %
+	public static void main001(String[] args) {
+		int numberOne = 20;
+		int numberTwo = 3;
+		int result;
+		
+		// +
+		result = numberOne + numberTwo;
+		System.out.println(numberOne + " + " + numberTwo + " = " + result);
+		
+		// -
+		result = numberOne - numberTwo;
+		System.out.println(numberOne + " - " + numberTwo + " = " + result);
+		
+		// *
+		result = numberOne * numberTwo;
+		System.out.println(numberOne + " * " + numberTwo + " = " + result);
+		
+		// /
+		result = numberOne / numberTwo;
+		System.out.println(numberOne + " / " + numberTwo + " = " + result);
+		
+		// %
+		result = numberOne % numberTwo;
+		System.out.println(numberOne + " % " + numberTwo + " = " + result);
+	}
+}

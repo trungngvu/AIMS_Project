@@ -1,0 +1,8 @@
+package java1;
+
+public class b3 {
+	public static void main(String[] args) {
+		final int YOUR_BIRTHDAY = 1994;
+		System.out.println(YOUR_BIRTHDAY);
+	}
+}

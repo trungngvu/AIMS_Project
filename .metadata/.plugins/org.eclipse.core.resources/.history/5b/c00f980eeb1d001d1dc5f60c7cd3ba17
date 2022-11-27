@@ -1,0 +1,121 @@
+package java1;
+
+public class p3_operator {
+	
+	//008 RANDOM NUMBER
+	public static void main(String[] args) {
+		int max = 19;
+		int min = 14;
+		int randomNumber = 0;
+		
+		randomNumber = (int)(min + Math.random()*(max - min));
+		System.out.println(randomNumber);
+	}
+	
+	//007 MAX
+	public static void main007(String[] args) {
+		int numberOne = 15;
+		int numberTwo = 125;
+		int numberThree = 85;
+		
+		int result = Math.max(numberOne, numberTwo);
+		int maxNumber = Math.max(result, numberThree);
+		
+		System.out.println(maxNumber);
+	}
+	
+	//006 Ham toan hoc pho bien
+	public static void main006(String[] args) {
+		int numberOne = 20;
+		int numberTwo = 10;
+		double numberThree = 123.456;
+		
+		int maxNumber = Math.max(numberOne, numberTwo);
+		System.out.println(maxNumber);
+		int minNumber = Math.min(numberOne, numberTwo);
+		System.out.println(minNumber);
+		double ceilNumber = Math.ceil(numberThree);
+		System.out.println(ceilNumber);
+		double floorNumber = Math.floor(numberThree);
+		System.out.println(floorNumber);
+		double roundNumber = Math.round(numberThree);
+		System.out.println(roundNumber);
+		double randomNumber = Math.random();
+		System.out.println(randomNumber);
+	}
+	
+	//005 Toan tu logic && ||  !
+	public static void main005(String[] args) {
+		//ket hop de tra ve kieu boolean
+	}
+	
+	//004 Toan tu so sanh > < >= <= == !=
+	public static void main004(String[] args) {
+		// tra ve gia tri kieu boolean
+	}
+	
+	//003 Toan tu ++ --
+	public static void main003(String[] args) {
+		int numberStart = 20;
+		int numberEnd = 0;
+		
+		numberEnd = numberStart++;
+		System.out.println(numberStart);
+		System.out.println(numberEnd);
+		
+		numberEnd = ++numberStart;
+		System.out.println(numberStart);
+		System.out.println(numberEnd);
+		
+	}
+	
+	//002 Toan tu gan 
+	public static void main002(String[] args) {
+		int number = 20;
+		
+		System.out.println("Start = " + number);
+		
+		// number = number + 10
+		number += 10;
+		System.out.println("After = " + number);
+		// number = number - 10
+		number -= 10;
+		System.out.println("After = " + number);
+		// number = number * 10
+		number *= 10;
+		System.out.println("After = " + number);
+		// number = number / 10
+		number /= 10;
+		System.out.println("After = " + number);
+		// number = number % 10
+		number %= 10;
+		System.out.println("After = " + number);
+	}
+	
+	//001 Toan tu so hoc + - * / %
+	public static void main001(String[] args) {
+		int numberOne = 20;
+		int numberTwo = 3;
+		int result;
+		
+		// +
+		result = numberOne + numberTwo;
+		System.out.println(numberOne + " + " + numberTwo + " = " + result);
+		
+		// -
+		result = numberOne - numberTwo;
+		System.out.println(numberOne + " - " + numberTwo + " = " + result);
+		
+		// *
+		result = numberOne * numberTwo;
+		System.out.println(numberOne + " * " + numberTwo + " = " + result);
+		
+		// /
+		result = numberOne / numberTwo;
+		System.out.println(numberOne + " / " + numberTwo + " = " + result);
+		
+		// %
+		result = numberOne % numberTwo;
+		System.out.println(numberOne + " % " + numberTwo + " = " + result);
+	}
+}

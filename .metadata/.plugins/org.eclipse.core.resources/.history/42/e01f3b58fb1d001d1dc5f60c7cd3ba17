@@ -1,0 +1,15 @@
+package java1;
+
+public class p4_condition {
+
+	//IF
+	public static void main(String[] args) {
+		//menh de if
+		int a = 6, b = 5;
+		if (a>b) {
+			a += 1;
+		}else a-= 1;
+		
+		System.out.println(a);
+	}
+}

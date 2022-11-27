@@ -1,0 +1,17 @@
+package java1;
+
+public class p5_loop {
+	
+	//002 bang cuu chuong - basic
+	public static void main(String[] args) {
+		int number = 3;
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(number + " x " + i + " = " + (number*i));
+		}
+	}
+	
+	//001 LOOP
+	public static void main001(String[] args) {
+		// cau truc vong lap
+	}
+}

@@ -1,0 +1,50 @@
+package java1;
+
+public class p2_variable {
+	
+	//004
+	public static void main(String[] args) {
+		int var1 = 12;
+		double var2 = 1.23;
+		int var3 = var1 + (int)var2;
+		double var4 = (double)var1 + var2;
+		
+		System.out.println(var3);
+		System.out.println(var4);
+	}
+	//003 Data Type
+	public static void main003(String[] args) {
+		int var1 = 12;
+		byte var2 = 10;
+		boolean var3 = true;
+		double var4 = 123.456;
+		String name = "John Smith";
+		
+		System.out.println("var1: " + var1);
+		System.out.println("var2: " + var2);
+		System.out.println("var3: " + var3);
+		System.out.println("var4: " + var4);
+		System.out.println("name: " + name);
+		
+	}
+	//002 Constant
+	public static void main002(String[] args) {
+		final int YOUR_BIRTHDAY = 1994;
+		System.out.println(YOUR_BIRTHDAY);
+	}
+	
+	//001 Variable
+	public static void main001(String[] args) {
+		/*
+		 */
+//		int age, year;
+//		char name, city;
+		
+		int age = 21;
+		int year = 2015;
+		char name = 'n';
+		System.out.println("age: " + age);
+		System.out.println("name: " + name);
+		System.out.println(year);
+	}
+}

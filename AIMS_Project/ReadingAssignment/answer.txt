@@ -1,0 +1,4 @@
+●	After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+	Vì java sử dụng tham trị tức là biến vào các method sẽ là bản sao thay đổi nó sẽ ko làm thay đổi giá trị nằm trong địa chỉ của 2 đối tượng o1 và o2.
+●	After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+	Vì hàm set của đối tượng có khả năng làm thay đổi giá trị của biến đó trong địa chỉ của nó điều này được làm rõ khi sau khi có ý định đổi lại khi gán 1 đối tượng mới là có giá trị như ban đầu thì lại ko thay đổi.

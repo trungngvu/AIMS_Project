@@ -1,0 +1,25 @@
+package hust.soict.globalict.garbage;
+import java.io.FileReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class GarbageCreator {
+	String filename = "text.exe";
+	FileReader inputText = null;
+	String s = "";
+	int i = 0;
+
+	try {
+		inputText = new FileReader(filename);
+		
+		int c;
+		while((c = inputText.read()) != -1) {
+			s += 
+		}
+	} finally {
+		if (inputText != null) {
+            inputText.close();
+         }
+
+	}
+}

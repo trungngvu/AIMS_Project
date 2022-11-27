@@ -1,0 +1,53 @@
+package java1;
+
+import java.util.Scanner;
+
+public class p6_caculator {
+	public static void main(String[] args) {
+		int firstNumber;
+		int secondNumber;
+		int result = 0;
+		String caculate;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Number First: ");
+		firstNumber = sc.nextInt();
+		sc.nextLine();
+		
+		System.out.println("Number Second: ");
+		secondNumber = sc.nextInt();
+		sc.nextLine();
+		
+		System.out.println("Caculate: ");
+		caculate = sc.nextLine();
+		
+		sc.close();
+		System.out.println("firstNumber: " + firstNumber);
+		System.out.println("secondNumber: " + secondNumber);
+		System.out.println("caculate: " + caculate);
+		
+		switch (caculate) {
+			case "+": 
+				result = firstNumber + secondNumber;
+				break;
+			case "-": 
+				result = firstNumber - secondNumber;
+				break;
+			case "*":
+			case "x": 
+				result = firstNumber * secondNumber;
+				break;
+			case "/": 
+				result = (int)(firstNumber / secondNumber);
+				break;
+			default:
+				break;
+			}
+		
+		System.out.println("-------------------------");
+		System.out.printf("%d %s %d = %d", firstNumber, caculate, secondNumber, result);
+		}
+		
+	}
+}

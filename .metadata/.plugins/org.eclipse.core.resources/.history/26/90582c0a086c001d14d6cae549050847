@@ -1,0 +1,12 @@
+package hust.soict.globalict.garbage;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class GarbageCreator {
+	String filename = "text.exe";
+	byte[] inputBytes = {0};
+	long startTime, endTime;
+	
+	inputBytes = Files.readAllBytes(Paths.get(filename));
+	startTime =
+}

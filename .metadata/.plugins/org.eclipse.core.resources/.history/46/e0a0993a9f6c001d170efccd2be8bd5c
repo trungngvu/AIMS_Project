@@ -1,0 +1,13 @@
+package hust.soict.globalict.garbage;
+import java.io.*;
+
+public class GarbageCreator {
+	public static void main(String[] args) {
+		FileReader input = null;
+		
+		try {
+			input = new FileReader("")
+		}
+		
+	}
+}

@@ -1,0 +1,10 @@
+package hust.soict.globalict.garbage;
+
+public class GarbageCreator {
+	String filename = "";
+	byte[] inputBytes = { 0 };
+	long startTime;
+	long endTime;
+	
+	inputBytes = Files.readAllBytes(Paths.get(filename));
+}
